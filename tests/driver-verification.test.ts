@@ -228,6 +228,7 @@ describe("Driver Verification Contract", () => {
       const driverId = 1
       const currentTime = 1693526400
       
+      
       // Mock the map-get? function to return a driver with low safety score
       driverVerification.mapGet.mockReturnValueOnce({
         name: "John Doe",
@@ -248,4 +249,3 @@ describe("Driver Verification Contract", () => {
     })
   })
 })
-
